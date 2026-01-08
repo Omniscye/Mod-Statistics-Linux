@@ -16,9 +16,6 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: List Files (Debug)
-        run: ls -R
-
       - name: Run Application
         env:
           GIST_ID: ${{ secrets.GIST_ID }}
