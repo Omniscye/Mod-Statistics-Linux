@@ -1,0 +1,28 @@
+name: Run Mod Statistics
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: List Files (Debug)
+        run: ls -R
+
+      - name: Run Application
+        env:
+          GIST_ID: ${{ secrets.GIST_ID }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+          NEXUS_API_KEY: ${{ secrets.NEXUS_API_KEY }}
+        run: dotnet run --project ModStatistics/ModStatistics.csproj
