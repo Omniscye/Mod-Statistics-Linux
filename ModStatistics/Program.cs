@@ -6,7 +6,7 @@ using ModStatistics;
 using ModStatistics.Platforms;
 
 string gistId = Environment.GetEnvironmentVariable("GIST_ID") ?? "";
-string githubToken = Environment.GetEnvironmentVariable("GH_TOKEN") ?? "";
+string githubToken = Environment.GetEnvironmentVariable("GITHUB_TOKEN") ?? "";
 string steamApiKey = Environment.GetEnvironmentVariable("STEAM_API_KEY") ?? "";
 string nexusApiKey = Environment.GetEnvironmentVariable("NEXUS_API_KEY") ?? "";
 
