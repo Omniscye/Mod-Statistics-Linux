@@ -1,9 +1,13 @@
 {
   "Increased Vacpack size": {
+    "name": "Increased Vacpack Size",
+    "popular": "True",
     "community": "slimerancher",
     "nexusModId": "578"
   },
   "Leveling": {
+    "name": "Leveling",
+    "popular":  "False",
     "community": "peak",
     "nexusModId": "153"
   }
