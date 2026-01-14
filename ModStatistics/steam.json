@@ -1,34 +1,42 @@
 {
   "3383270520": {
-    "community":  "content-warning",
-    "popular": "False"
+    "community": "content-warning",
+    "popular": "False",
+    "icon": "https://images.steamusercontent.com/ugc/63711068825611685/539CA3FC6B291BCB30C1B16CC3255E2CCD76D038/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
   },
   "3383837077": {
     "community": "content-warning",
-    "popular": "False"
+    "popular": "False",
+    "icon": "https://images.steamusercontent.com/ugc/63715342999521085/E6AAEA5F92DD4CC38064A58960E7C7682AF7BC21/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
   },
   "3385201967": {
     "community": "content-warning",
-    "popular": "False"
+    "popular": "False",
+    "icon": "https://images.steamusercontent.com/ugc/63711481643647975/4DFC09631AA9161EB52EFDB239345F47F6C1A4D8/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
   },
   "3385250537": {
     "community": "content-warning",
-    "popular": "False"
+    "popular": "False",
+    "icon": "https://images.steamusercontent.com/ugc/63711481620988041/6507280D035F374ED676EBCABC7D35047EA2F2EB/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
   },
   "3386220143": {
     "community": "content-warning",
-    "popular": "False"
+    "popular": "False",
+    "icon": "https://images.steamusercontent.com/ugc/63710904343327777/BA0C8CD957520F0857F3B355483D4EC9CC669254/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
   },
   "3386777900": {
     "community": "content-warning",
-    "popular": "False"
+    "popular": "False",
+    "icon": "https://images.steamusercontent.com/ugc/63710904343389988/065BE7AEAE741EB588C73905175D4C5D0B42526C/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
   },
   "3389296239": {
     "community": "content-warning",
-    "popular": "False"
+    "popular": "False",
+    "icon": "https://images.steamusercontent.com/ugc/63711068820952232/4471B7A64923913D4A3EB2BB746B8C0486019D2E/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
   },
   "3400376437": {
     "community": "content-warning",
-    "popular": "False"
+    "popular": "False",
+    "icon": "https://images.steamusercontent.com/ugc/63712353145593949/95162C250D684438ACFF4E6D3DF160E456E395E3/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
   }
 }

@@ -11,10 +11,11 @@ namespace ModStatistics
         public ulong Ratings { get; set; }
         [JsonPropertyName("version")]
         public string Version { get; set; } = "1.0.0";
-        public string community { get; set; } = "";
-        public string link { get; set; } = "";
-        public string platform { get; set; } = "";
+        public string community { get; set; } = "null";
+        public string link { get; set; } = "null";
+        public string platform { get; set; } = "null";
         public string popular { get; set; } = "False";
+        public string icon { get; set; } = "null";
 
         [JsonPropertyName("positive ratings")]
         public ulong PositiveRatings { get; set; }
