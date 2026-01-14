@@ -92,7 +92,6 @@ try
         }
     }
 
-    // Inside your try block in Program.cs
     if (getNexus && !string.IsNullOrEmpty(nexusApiKey))
     {
         client.DefaultRequestHeaders.Clear();
@@ -110,6 +109,7 @@ try
             entry.Value.Downloads = root.GetProperty("mod_downloads").GetUInt64();
             entry.Value.Ratings = root.GetProperty("endorsement_count").GetUInt64();
             entry.Value.Version = root.GetProperty("version").GetString() ?? "1.0.0";
+            entry.Value.icon = root.GetProperty("picture_url").GetString() ?? "null";
 
             totalDownloads += entry.Value.Downloads;
             totalRatings += entry.Value.Ratings;
