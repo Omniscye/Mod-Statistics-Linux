@@ -32,7 +32,6 @@ try
     ulong totalRatings = 0;
     ulong totalRatingsBad = 0;
 
-    // --- THUNDA THA THA THUNDA
     if (getThunderstore)
     {
         foreach (var entry in thunderstoreMods)
@@ -46,6 +45,8 @@ try
                 string team = match.Groups[1].Value;
                 string pkg = match.Groups[2].Value;
                 string apiUrl = $"https://thunderstore.io/api/v1/package-metrics/{team}/{pkg}/";
+
+                await Task.Delay(500);
 
                 var response = await client.GetStringAsync(apiUrl);
                 using var doc = JsonDocument.Parse(response);
@@ -64,16 +65,12 @@ try
         }
     }
 
-    // --- NOPE ---
     if (!string.IsNullOrEmpty(steamApiKey) && getSteam)
     {
-       // NOPE NOPE
     }
 
-    // --- NO NO NO ---
     if (getNexus && !string.IsNullOrEmpty(nexusApiKey))
     {
-       // NO
     }
 
     var finalData = new Dictionary<string, object>
